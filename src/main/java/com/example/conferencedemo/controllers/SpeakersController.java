@@ -14,7 +14,6 @@ import java.util.List;
 public class SpeakersController {
 
     @Autowired
-
     private SpeakerRepository speakerRepository;
 
     @GetMapping

@@ -16,8 +16,8 @@ import java.util.List;
 public class SessionsController {
 
     @Autowired
-
     private SessionRepository sessionRepository;
+
 
     @GetMapping
     public List<Session> list(){
