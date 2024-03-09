@@ -1,4 +1,4 @@
-package com.example.conferencedemo.config;
+/*package com.example.conferencedemo.config;
 
 import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.annotation.Bean;
@@ -9,7 +9,7 @@ import javax.sql.DataSource;
 @Configuration
 public class PersistenceConfiguration {
 
-    /*@Bean
+    *//*@Bean
     public DataSource dataSource() {
         DataSourceBuilder builder = DataSourceBuilder.create();
         builder.url("jdbc:postgresql://localhost:5432/conference_app");
@@ -18,5 +18,5 @@ public class PersistenceConfiguration {
         System.out.println("The configuration java clas is started");
         return builder.build();
 
-    }*/
-}
+    }*//*
+}*/
